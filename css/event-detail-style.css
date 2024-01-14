@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.event-detail-page {
+  width: 80vw;
+  padding: 4% 0 0;
+  margin: auto;
+}
+
+.align-right{
+  text-align: right;
+  margin:0;
+}
+
+.event-detail-info {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 1080px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 7px;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(12, 20, 69) 0%, rgb(71, 30, 84) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+h1{
+    text-transform: uppercase;
+}
